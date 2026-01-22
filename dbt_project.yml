@@ -9,6 +9,9 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
+dbt-cloud:
+  project-id: 70437463662701
+
 seeds:
   # Builds seeds into '<your_schema_name>_raw'
   jaffle_shop:
